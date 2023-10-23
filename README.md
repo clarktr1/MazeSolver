@@ -3,7 +3,16 @@
 
 This Maze Solver solves a maze (wow!) by implementing the Stack ADT and creating a 2D array using information from a .txt file. This was completed alongside my Computer Science 3 class. 
 
-## Desription
+## Table of Contents
+- [Description](#Description)
+    - [Maze 1](#Maze1)
+    - [Maze 2](#Maze2)
+    - [Maze 3](#Maze3)
+    - [Squares](#Maze4)
+- [Screenshots](#Screenshots)
+- [Awknowledgments](#Awknowledgments)
+
+## Description
 
 This Java project is designed to solve mazes using Stacks and ArrayLists. It takes maze information from .txt files, which specify the START position, END position, WALLS, and OPEN spots using whole numbers and constants. The key for the spaces is as follows:
 
@@ -16,7 +25,7 @@ With this information, we can create a 2D Array that has a X, Y, and Type, for t
 
 For example:
 
-### Maze 1
+### Maze1
 ```
 3 3
 2 0 0
@@ -26,7 +35,7 @@ For example:
 
 In Maze 1, a 2D array with 3 rows and 3 columns is created. The start position is at coordinates (0,0), and the exit position is at (3, 3). The maze is defined using the constants mentioned above. This is one of the easier implementations.
 
-### Maze 2
+### Maze2
 ```
 7 13
 0 0 0 0 0 0 1 0 0 0 0 0 0
@@ -40,7 +49,7 @@ In Maze 1, a 2D array with 3 rows and 3 columns is created. The start position i
 
 In Maze 2, a 2D array with 7 rows and 13 columns is created. The start position is at (7, 4) while the exit is at (7, 12). The stacks will work with multiple pathways until it reaches the final square. 
 
-### Maze 3
+### Maze3
 ```
 3 5
 0 0 1 0 0
